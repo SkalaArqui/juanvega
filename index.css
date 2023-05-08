@@ -160,4 +160,7 @@ h2 {
     img.logo {
       width: 35%;
     }
+    .button {
+      margin-top: 0px;
+    }
   }
