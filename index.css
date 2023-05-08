@@ -17,7 +17,7 @@ body {
 .card-container {
     max-width: 390px;
     height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    /* height: calc(var(--vh, 1vh) * 100); */
+    height: calc(var(--vh, 1vh) * 100);
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -153,5 +153,11 @@ h2 {
   @media (min-height: 800px) {
     .logo-decoration-container {
       padding-top: 15%;
+    }
+  }
+
+  @media (max-height: 600px) {
+    img.logo {
+      width: 35%;
     }
   }
